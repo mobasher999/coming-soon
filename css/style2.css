@@ -1,0 +1,114 @@
+/*
+Author URI: http://webthemez.com/
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700);
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	background: #fff;
+	transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+}
+p {
+	color: #3E3E3E;
+	margin: 0 0 1em !important;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family:36px 'Open Sans', sans-serif;
+}
+
+
+footer {
+	border-top: 1px solid #303030;
+	padding: 45px 0;
+	background: #fff;
+}
+.social a:hover {
+	color: #000;
+}
+.social a {
+	font-size: 32px;
+	margin: 0 10px;
+	color: #FF5200;
+}
+.contact ul li {
+	margin-bottom: 10px;
+}
+.contact ul li i {
+	margin-right: 15px;
+}
+/*Clients*/
+.clients #owl-demo .item {
+	background: none;
+}
+.clients .helper {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+.clients .helper img {
+	vertical-align: middle;
+	max-height: 70px;
+	max-width: 80%;
+}
+.clients .helper:hover {
+	cursor: e-resize;
+}
+.clients .customNavigation > a {
+	font-size: 25px;
+	cursor: pointer;
+	margin: 0px 5px;
+}
+.portfolio-item img:hover {
+	width: 110%;
+	height: 110%;
+}
+footer{
+	background: #000C11;
+}
+footer h4{
+font-size:24px;	
+padding-bottom:12px;
+}
+footer .col ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+footer .col ul li, footer .col p {
+font-size: 14px;
+color: #696969;
+}
+footer .col.col-social-icons i {
+width: 40px;
+height: 40px;
+display: inline-block;
+padding: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+text-align: center;
+font-size: 18px; 
+color: #838383;
+border-radius: 50%;
+border: 1px solid #333;
+}
+footer .col.col-social-icons i:hover{
+color:#FF5200;
+}
+footer input.form-control{
+	padding: 18px 10px;
+}
